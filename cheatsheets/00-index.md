@@ -18,6 +18,7 @@ y publicable.
 | 10 | [Hash Cracking](10-hash-cracking.md) | Identificación, modos hashcat/john, wordlists |
 | 11 | [PrivEsc Linux](11-privesc-linux.md) | sudo, SUID, capabilities, cron, Docker, kernel |
 | 12 | [Shells & Pivoting](12-shells-pivoting.md) | Reverse shells, upgrade TTY, port forwarding, túneles |
+| 13 | [XXE](13-xxe.md) | XML external entity: file read, SSRF, blind/OOB, SVG/DOCX |
 
 ## Flujo mental CWEE (grey-box)
 

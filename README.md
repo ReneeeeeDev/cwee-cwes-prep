@@ -57,8 +57,12 @@ se suben a GitHub. Úsalos solo como referencia local. Lo que publicas es:
 | OpenSource | Easy | File upload + Directory Traversal (RCE) | git hook (cron root) + Docker |
 | GoodGames | Easy | Union SQLi, SSTI | Docker breakout |
 | Cap | Easy | IDOR, sniffing de pcap (FTP) | Linux capabilities |
+| Bashed | Easy | Web fuzzing, webshell (phpbash) | sudo -u + cron script escribible |
+| BountyHunter | Easy | **XXE injection** | script Python con eval() por sudo |
+| FriendZone | Easy | DNS zone transfer, LFI → RCE | cron importa módulo Python escribible |
 | Timing | Medium | Side-channel user enum, LFI, file upload | sudo (Axel config) |
 | Shibboleth | Medium | IPMI hash leak, Zabbix RCE | MySQL UDF |
 | Forge | Medium | SSRF + bypass de filtro | sudo script → pdb |
+| Cronos | Medium | SQLi, command injection | crontab root world-writable |
 
 _(El inventario sirve de índice; los detalles de resolución van en tus writeups.)_
