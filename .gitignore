@@ -1,0 +1,26 @@
+# Writeups oficiales de HTB (copyright, contenido de pago) — NO publicar
+writeups/_official-reference/
+*.pdf
+
+# Datos de laboratorio / loot — nunca subir evidencias con IPs/flags reales
+**/loot/
+**/*.flag
+user.txt
+root.txt
+*.nmap
+*.gnmap
+*.xml
+
+# Capturas y binarios pesados
+*.pcap
+*.pcapng
+*.bin
+*.exe
+*.elf
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
